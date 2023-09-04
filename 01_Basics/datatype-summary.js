@@ -30,3 +30,27 @@
     }
  console.log(typeof myFunction);  // Object Function
  console.log(typeof heros);
+
+ // ************************ Concept of Memory *********************
+
+ // Stack (Primitive), Heap (Non Primitive)
+
+  let myYoutubename = "Sanju"
+  let anotherName = myYoutubename
+  anotherName = "JavaScript"
+
+  console.log(myYoutubename);
+  console.log(anotherName);
+  
+  let userOne = {
+    email: "Sanju@gmail.com",
+    id: 97099
+  }
+
+  let userTwo = userOne
+  console.log(userOne);
+  console.log(userTwo);
+
+  userTwo.email = "Sanju786897@"
+  console.log(userOne.email);
+  console.log(userTwo.email);
