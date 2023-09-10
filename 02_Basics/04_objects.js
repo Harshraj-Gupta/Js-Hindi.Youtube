@@ -68,6 +68,19 @@ console.log(tinderUser.hasOwnProperty("isLogged"));
 
 
 
+const course = {
+    coursename: "Java Script",
+    price: "4000",
+    courseInstructor: "Hitesh Chaudhary"
+}
+// course.courseInstructor
+
+const {courseInstructor: Inst} = course;
+//console.log(courseInstructor);// output ==> Hitesh Chaudhary
+console.log(Inst);// output ==> Hitesh Chaudhary
+
+
+
 
 
 
